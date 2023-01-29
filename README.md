@@ -2,6 +2,7 @@
 Parse value data from cgiminer
 
 ## Sample Data;
+```
 {
   STATUS: 'S',
   When: '1675008918',
@@ -35,15 +36,19 @@ Parse value data from cgiminer
   PoolStale: '0.0000',
   Lastgetwork: '1675006334|'
 }
+```
 
 ## Usage
 
-row 1 is datas[0]
-row 2 is datas[1]
-row 3 is datas[2]
+
+- row 1 is datas[0]
+- row 2 is datas[1]
+- row 3 is datas[2]
 
 To get row 2 data GHSav
-return data[1].GHSav;
 
+```
+let data = datas[0].GHSav;
+```
 
 
