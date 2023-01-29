@@ -16,5 +16,6 @@ rows.forEach(function(row) {
     datas.push(cols);
 });
 
-console.log(datas[0]);
-// return datas[0]->
+// console.log(datas[0]);
+
+return datas[0].GHSav;
